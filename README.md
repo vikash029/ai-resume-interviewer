@@ -75,7 +75,7 @@ If you want to share your Streamlit app over the internet, you can use **ngrok**
 3. **Run your Streamlit app**
    ```bash
    streamlit run app.py
---
+
 
 
 
