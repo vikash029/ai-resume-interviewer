@@ -52,6 +52,7 @@ Clone the repository
 ```bash
 git clone https://github.com/yourusername/ai-resume-interviewer.git
 cd ai-resume-interviewer
+```
 
 ---
 
