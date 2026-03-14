@@ -6,6 +6,61 @@ This project allows users to upload their resume and interact with it using AI.
 
 ---
 
+## 📊 RAG System Architecture
+
+           +-------------------+
+           |   Resume Upload   |
+           +-------------------+
+                    |
+                    v
+           +-------------------+
+           |  PDF Text Parser  |
+           |   (pdfplumber)    |
+           +-------------------+
+                    |
+                    v
+           +-------------------+
+           |   Text Chunking   |
+           +-------------------+
+                    |
+                    v
+           +-------------------+
+           |  Embedding Model  |
+           +-------------------+
+                    |
+                    v
+           +-------------------+
+           |  Vector Database  |
+           | (FAISS / Chroma)  |
+           +-------------------+
+                    |
+                    v
+           +-------------------+
+User Query → | Vector Search |
+           +-------------------+
+                    |
+                    v
+           +-------------------+
+           |   LLM (Llama3)    |
+           +-------------------+
+                    |
+                    v
+           +-------------------+
+           | AI Generated Answer|
+           +-------------------+
+
+---   
+
+## 🧰 RAG Tech Stack
+
+- **LLM:** Llama3 (via Ollama)
+- **Embedding Model:** sentence-transformers
+- **Vector Database:** FAISS / ChromaDB
+- **Text Extraction:** pdfplumber
+- **Framework:** Python + Streamlit
+
+---
+
 ## 🚀 Features
 
 • Upload Resume (PDF)  
