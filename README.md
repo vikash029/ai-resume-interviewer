@@ -53,6 +53,8 @@ Clone the repository
 git clone https://github.com/yourusername/ai-resume-interviewer.git
 cd ai-resume-interviewer
 
+---
+
 ## 📂 Project Structure
 
 ai-resume-interviewer/
@@ -60,9 +62,11 @@ ai-resume-interviewer/
 - │── backend.ipynb       # Backend logic / experiments
 - │── requirements.txt    # Dependencies
 
+---
+
 ## 🔮 Future Improvements
 
-The following features are planned for future versions of this project:
+- **The following features are planned for future versions of this project:**
 
 - **Skill Extraction from Resume**  
   Automatically detect and list technical skills from the uploaded resume.
@@ -78,6 +82,8 @@ The following features are planned for future versions of this project:
 
 - **RAG-based Resume Chatbot**  
   Implement Retrieval-Augmented Generation (RAG) so users can ask questions and get answers strictly based on their resume content.
+
+---
 
 ## ⚙️ Installation & Setup
 
@@ -96,6 +102,8 @@ The following features are planned for future versions of this project:
 4. **Run the Streamlit app**
    ```bash
    streamlit run app.py
+
+---
 
 
 ## 📖 Usage
@@ -124,6 +132,7 @@ If you want to share your Streamlit app over the internet, you can use **ngrok**
 3. **Run your Streamlit app**
    ```bash
    streamlit run app.py
+   ```
 
 
 
