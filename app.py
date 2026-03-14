@@ -29,10 +29,13 @@ if uploaded_file:
         Return the output in this format:
 
         1. Question:
-        Answer:
+
+        == Answer:
 
         2. Question:
-        Answer:
+
+        == Answer:
+
         """
 
         with st.spinner("Generating interview questions..."):
