@@ -23,9 +23,9 @@ Upload your resume and generate **AI-based interview questions and answers** to 
 ## 📂 Project Structure
 
 ai-resume-interviewer/
-- **│── app.py              # Main Streamlit application
-- **│── backend.ipynb       # Backend logic / experiments
-- **│── requirements.txt    # Dependencies
+- │── app.py              # Main Streamlit application
+- │── backend.ipynb       # Backend logic / experiments
+- │── requirements.txt    # Dependencies
 
 
 ---
