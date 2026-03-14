@@ -6,48 +6,20 @@ This project allows users to upload their resume and interact with it using AI.
 
 ---
 
-## 📊 RAG System Architecture
+## 💡 Why This Project Matters
 
-           +-------------------+
-           |   Resume Upload   |
-           +-------------------+
-                    |
-                    v
-           +-------------------+
-           |  PDF Text Parser  |
-           |   (pdfplumber)    |
-           +-------------------+
-                    |
-                    v
-           +-------------------+
-           |   Text Chunking   |
-           +-------------------+
-                    |
-                    v
-           +-------------------+
-           |  Embedding Model  |
-           +-------------------+
-                    |
-                    v
-           +-------------------+
-           |  Vector Database  |
-           | (FAISS / Chroma)  |
-           +-------------------+
-                    |
-                    v
-           +-------------------+
-User Query → | Vector Search |
-           +-------------------+
-                    |
-                    v
-           +-------------------+
-           |   LLM (Llama3)    |
-           +-------------------+
-                    |
-                    v
-           +-------------------+
-           | AI Generated Answer|
-           +-------------------+
+Traditional resume screening is often manual and time-consuming. Recruiters and hiring managers must read through hundreds of resumes to identify suitable candidates.
+
+This project demonstrates how **Artificial Intelligence and Large Language Models (LLMs)** can assist in automating parts of the hiring process.
+
+The **AI Resume Interviewer** helps by:
+
+- Automatically analyzing resume content
+- Generating relevant **technical interview questions**
+- Allowing users to **interact with their resume through AI**
+- Demonstrating how **RAG (Retrieval-Augmented Generation)** can improve response accuracy
+
+This project highlights the practical application of **LLMs, vector search, and AI-driven automation** in modern recruitment workflows.
 
 ---   
 
