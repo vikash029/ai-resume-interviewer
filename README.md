@@ -1,24 +1,57 @@
-# AI Resume Interviewer
+# 🤖 AI Resume Interviewer
 
-Upload your resume and generate **AI-based interview questions and answers** to prepare for interviews more effectively.
+An AI-powered application that analyzes a resume and generates technical interview questions, answers, and resume insights using a local LLM.
+
+This project allows users to upload their resume and interact with it using AI.
 
 ---
 
 ## 🚀 Features
-- Upload resume in PDF format
-- Automatically generate interview questions based on your resume
-- AI-powered answers using Llama3 via Ollama
-- Simple and interactive UI with Streamlit
+
+• Upload Resume (PDF)  
+• AI-generated Resume Summary  
+• Technical Interview Questions with Answers  
+• Chat with your Resume  
+• Runs on Local LLM (No API cost)
 
 ---
 
-## 🛠 Tech Stack
-- **Python** – Core programming language
-- **Streamlit** – Web app framework
-- **Ollama** – Model serving
-- **Llama3** – Large Language Model for Q&A
+## 🧠 Tech Stack
+
+- Python
+- Streamlit
+- Ollama
+- Llama3 (Local LLM)
+- PDFPlumber
 
 ---
+
+## ⚙️ How It Works
+
+1. User uploads a resume (PDF)
+2. The system extracts the resume content
+3. AI analyzes the resume using a local LLM
+4. The application generates:
+
+- Resume summary
+- Interview questions with answers
+- AI chatbot responses based on the resume
+
+---
+
+## 🖥️ Demo Flow
+
+Upload Resume → AI Analysis → Questions + Answers → Resume Chatbot
+
+---
+
+## 📦 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/ai-resume-interviewer.git
+cd ai-resume-interviewer
 
 ## 📂 Project Structure
 
@@ -27,8 +60,24 @@ ai-resume-interviewer/
 - │── backend.ipynb       # Backend logic / experiments
 - │── requirements.txt    # Dependencies
 
+## 🔮 Future Improvements
 
----
+The following features are planned for future versions of this project:
+
+- **Skill Extraction from Resume**  
+  Automatically detect and list technical skills from the uploaded resume.
+
+- **AI Mock Interview Mode**  
+  Simulate a real interview where the AI asks questions and evaluates the candidate's responses.
+
+- **Resume Scoring System**  
+  Analyze the resume and provide a score based on structure, skills, and experience.
+
+- **Resume Improvement Suggestions**  
+  Provide AI-driven recommendations to improve the resume for better job opportunities.
+
+- **RAG-based Resume Chatbot**  
+  Implement Retrieval-Augmented Generation (RAG) so users can ask questions and get answers strictly based on their resume content.
 
 ## ⚙️ Installation & Setup
 
