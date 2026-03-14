@@ -138,13 +138,13 @@ If you want to share your Streamlit app over the internet, you can use **ngrok**
 ## 👨‍💻 Author
 
 **Vitthal Vikash**  
-Full Stack Developer | AI/ML Enthusiast  
+Full Stack Developer | AI/ML Enthusiast  |  🔗 [LinkedIn](https://www.linkedin.com/in/vitthal-vikash-303a60182/)
 
 - 💼 Java | Spring Boot | Microservices  
 - 🤖 AI/ML Projects & LLM Applications  
 - 🌐 Passionate about building scalable software systems  
 
-🔗 [LinkedIn](https://www.linkedin.com/in/vitthal-vikash-303a60182/)
+
 
 
 
