@@ -82,7 +82,7 @@ if uploaded_file:
 
     # -------- Resume Chat --------
     st.divider()
-    st.subheader("💬 Chat with your Resume")
+    st.subheader("💬 Chat with Resume")
 
     if "messages" not in st.session_state:
         st.session_state.messages = []
